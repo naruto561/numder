@@ -1,0 +1,16 @@
+# Create a dictionary
+data = {
+    "name": "Alice",
+    "age": 15,
+    "city": "London",
+    "grade": 10
+}
+
+# Ask the user for a key
+key = input("Enter the key: ")
+
+# Find and display the value
+if key in data:
+    print("Value:", data[key])
+else:
+    print("Key not found.")
